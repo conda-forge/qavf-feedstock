@@ -11,7 +11,7 @@ source:
   sha256: 29998a815481591200181c58d4ce518a7f5cd38bfe92281f46bccc25cffa349d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
@@ -36,6 +36,7 @@ requirements:
   run_constraints:
     - scipy >=1.11.3
     - pandas >=2.2
+    - pyproj >=3.6.1
 
 tests:
   - python:
