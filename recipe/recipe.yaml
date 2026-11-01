@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.6.0"
   python_min: "3.12"
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/qavf/qavf-${{ version }}.tar.gz
-  sha256: 29998a815481591200181c58d4ce518a7f5cd38bfe92281f46bccc25cffa349d
+  sha256: 580a387c09f057b529a8739d7a5013306f7cd78e1389367e43c94083fbba122a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
