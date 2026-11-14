@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qavf-feedstock/
 
 Home: https://github.com/AhmedAredah/qavf
 
-Package license: MIT
+Package license: Apache-2.0
 
 Summary: Configurable data QA/QC for files, dataframes and database queries.
 
